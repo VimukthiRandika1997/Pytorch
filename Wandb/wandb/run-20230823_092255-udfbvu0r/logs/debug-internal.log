@@ -1,0 +1,144 @@
+2023-08-23 09:22:55,807 INFO    StreamThr :1084937 [internal.py:wandb_internal():86] W&B internal server running at pid: 1084937, started at: 2023-08-23 09:22:55.796616
+2023-08-23 09:22:55,818 DEBUG   HandlerThread:1084937 [handler.py:handle_request():144] handle_request: status
+2023-08-23 09:22:55,820 INFO    WriterThread:1084937 [datastore.py:open_for_write():85] open: /home/vimukthi/MyProjects/Research-work/Pytorch/Wandb/wandb/run-20230823_092255-udfbvu0r/run-udfbvu0r.wandb
+2023-08-23 09:22:55,820 DEBUG   SenderThread:1084937 [sender.py:send():379] send: header
+2023-08-23 09:22:55,875 DEBUG   SenderThread:1084937 [sender.py:send():379] send: run
+2023-08-23 09:22:57,017 INFO    SenderThread:1084937 [dir_watcher.py:__init__():211] watching files in: /home/vimukthi/MyProjects/Research-work/Pytorch/Wandb/wandb/run-20230823_092255-udfbvu0r/files
+2023-08-23 09:22:57,017 INFO    SenderThread:1084937 [sender.py:_start_run_threads():1121] run started: udfbvu0r with start time 1692762775.79552
+2023-08-23 09:22:57,018 DEBUG   SenderThread:1084937 [sender.py:send_request():406] send_request: summary_record
+2023-08-23 09:22:57,018 INFO    SenderThread:1084937 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-08-23 09:22:57,049 DEBUG   HandlerThread:1084937 [handler.py:handle_request():144] handle_request: check_version
+2023-08-23 09:22:57,049 DEBUG   SenderThread:1084937 [sender.py:send_request():406] send_request: check_version
+2023-08-23 09:22:57,532 DEBUG   HandlerThread:1084937 [handler.py:handle_request():144] handle_request: run_start
+2023-08-23 09:22:57,537 DEBUG   HandlerThread:1084937 [system_info.py:__init__():31] System info init
+2023-08-23 09:22:57,537 DEBUG   HandlerThread:1084937 [system_info.py:__init__():46] System info init done
+2023-08-23 09:22:57,538 INFO    HandlerThread:1084937 [system_monitor.py:start():181] Starting system monitor
+2023-08-23 09:22:57,539 INFO    SystemMonitor:1084937 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-08-23 09:22:57,540 INFO    HandlerThread:1084937 [system_monitor.py:probe():201] Collecting system info
+2023-08-23 09:22:57,542 INFO    SystemMonitor:1084937 [interfaces.py:start():190] Started cpu monitoring
+2023-08-23 09:22:57,546 INFO    SystemMonitor:1084937 [interfaces.py:start():190] Started disk monitoring
+2023-08-23 09:22:57,551 INFO    SystemMonitor:1084937 [interfaces.py:start():190] Started memory monitoring
+2023-08-23 09:22:57,553 INFO    SystemMonitor:1084937 [interfaces.py:start():190] Started network monitoring
+2023-08-23 09:22:57,562 DEBUG   HandlerThread:1084937 [system_info.py:probe():195] Probing system
+2023-08-23 09:22:57,573 DEBUG   HandlerThread:1084937 [system_info.py:_probe_git():180] Probing git
+2023-08-23 09:22:57,597 DEBUG   HandlerThread:1084937 [system_info.py:_probe_git():188] Probing git done
+2023-08-23 09:22:57,597 DEBUG   HandlerThread:1084937 [system_info.py:probe():240] Probing system done
+2023-08-23 09:22:57,597 DEBUG   HandlerThread:1084937 [system_monitor.py:probe():210] {'os': 'Linux-6.2.0-26-generic-x86_64-with-glibc2.35', 'python': '3.9.16', 'heartbeatAt': '2023-08-23T03:52:57.563107', 'startedAt': '2023-08-23T03:52:55.781023', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'git': {'remote': 'https://github.com/VimukthiRandika1997/Pytorch.git', 'commit': '802ba6ea24d1c8e7527e74461e5935b47b459213'}, 'email': 'vimukthirandika1997@gmail.com', 'root': '/home/vimukthi/MyProjects/Research-work/Pytorch', 'host': 'vimukthi-HP-Notebook', 'username': 'vimukthi', 'executable': '/home/vimukthi/anaconda3/envs/pytorch/bin/python', 'cpu_count': 2, 'cpu_count_logical': 4, 'cpu_freq': {'current': 1500.00025, 'min': 400.0, 'max': 3100.0}, 'cpu_freq_per_core': [{'current': 1499.996, 'min': 400.0, 'max': 3100.0}, {'current': 1500.008, 'min': 400.0, 'max': 3100.0}, {'current': 1499.992, 'min': 400.0, 'max': 3100.0}, {'current': 1499.999, 'min': 400.0, 'max': 3100.0}], 'disk': {'total': 101.38447570800781, 'used': 95.00556182861328}, 'memory': {'total': 15.528583526611328}}
+2023-08-23 09:22:57,597 INFO    HandlerThread:1084937 [system_monitor.py:probe():211] Finished collecting system info
+2023-08-23 09:22:57,597 INFO    HandlerThread:1084937 [system_monitor.py:probe():214] Publishing system info
+2023-08-23 09:22:57,598 DEBUG   HandlerThread:1084937 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-08-23 09:22:57,599 DEBUG   HandlerThread:1084937 [system_info.py:_save_pip():67] Saving pip packages done
+2023-08-23 09:22:57,599 DEBUG   HandlerThread:1084937 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-08-23 09:22:58,020 INFO    Thread-12 :1084937 [dir_watcher.py:_on_file_created():271] file/dir created: /home/vimukthi/MyProjects/Research-work/Pytorch/Wandb/wandb/run-20230823_092255-udfbvu0r/files/requirements.txt
+2023-08-23 09:22:58,021 INFO    Thread-12 :1084937 [dir_watcher.py:_on_file_created():271] file/dir created: /home/vimukthi/MyProjects/Research-work/Pytorch/Wandb/wandb/run-20230823_092255-udfbvu0r/files/conda-environment.yaml
+2023-08-23 09:22:58,021 INFO    Thread-12 :1084937 [dir_watcher.py:_on_file_created():271] file/dir created: /home/vimukthi/MyProjects/Research-work/Pytorch/Wandb/wandb/run-20230823_092255-udfbvu0r/files/wandb-summary.json
+2023-08-23 09:23:08,020 INFO    Thread-12 :1084937 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/vimukthi/MyProjects/Research-work/Pytorch/Wandb/wandb/run-20230823_092255-udfbvu0r/files/conda-environment.yaml
+2023-08-23 09:23:08,202 DEBUG   HandlerThread:1084937 [system_info.py:_save_conda():86] Saving conda packages done
+2023-08-23 09:23:08,203 DEBUG   HandlerThread:1084937 [system_info.py:_save_code():89] Saving code
+2023-08-23 09:23:08,203 WARNING HandlerThread:1084937 [system_info.py:_save_code():91] unable to save code -- program entry not found
+2023-08-23 09:23:08,203 DEBUG   HandlerThread:1084937 [system_info.py:_save_patches():127] Saving git patches
+2023-08-23 09:23:08,259 DEBUG   HandlerThread:1084937 [system_info.py:_save_patches():169] Saving git patches done
+2023-08-23 09:23:08,260 INFO    HandlerThread:1084937 [system_monitor.py:probe():216] Finished publishing system info
+2023-08-23 09:23:08,264 DEBUG   HandlerThread:1084937 [handler.py:handle_request():144] handle_request: status_report
+2023-08-23 09:23:08,264 DEBUG   HandlerThread:1084937 [handler.py:handle_request():144] handle_request: keepalive
+2023-08-23 09:23:08,264 DEBUG   HandlerThread:1084937 [handler.py:handle_request():144] handle_request: status_report
+2023-08-23 09:23:08,264 DEBUG   HandlerThread:1084937 [handler.py:handle_request():144] handle_request: keepalive
+2023-08-23 09:23:08,266 DEBUG   SenderThread:1084937 [sender.py:send():379] send: files
+2023-08-23 09:23:08,266 INFO    SenderThread:1084937 [sender.py:_save_file():1375] saving file wandb-metadata.json with policy now
+2023-08-23 09:23:08,266 INFO    SenderThread:1084937 [sender.py:_save_file():1375] saving file diff.patch with policy now
+2023-08-23 09:23:08,285 DEBUG   HandlerThread:1084937 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-23 09:23:08,286 DEBUG   SenderThread:1084937 [sender.py:send_request():406] send_request: stop_status
+2023-08-23 09:23:08,289 DEBUG   HandlerThread:1084937 [handler.py:handle_request():144] handle_request: pause
+2023-08-23 09:23:08,290 INFO    HandlerThread:1084937 [handler.py:handle_request_pause():728] stopping system metrics thread or process
+2023-08-23 09:23:08,290 INFO    HandlerThread:1084937 [system_monitor.py:finish():190] Stopping system monitor
+2023-08-23 09:23:08,291 DEBUG   SystemMonitor:1084937 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-08-23 09:23:08,291 DEBUG   SystemMonitor:1084937 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-08-23 09:23:08,291 DEBUG   SystemMonitor:1084937 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-08-23 09:23:08,292 INFO    HandlerThread:1084937 [interfaces.py:finish():202] Joined cpu monitor
+2023-08-23 09:23:08,292 INFO    HandlerThread:1084937 [interfaces.py:finish():202] Joined disk monitor
+2023-08-23 09:23:08,292 INFO    HandlerThread:1084937 [interfaces.py:finish():202] Joined memory monitor
+2023-08-23 09:23:08,292 INFO    HandlerThread:1084937 [interfaces.py:finish():202] Joined network monitor
+2023-08-23 09:23:08,368 DEBUG   HandlerThread:1084937 [handler.py:handle_request():144] handle_request: resume
+2023-08-23 09:23:08,368 INFO    HandlerThread:1084937 [handler.py:handle_request_resume():719] starting system metrics thread or process
+2023-08-23 09:23:08,368 INFO    HandlerThread:1084937 [system_monitor.py:start():181] Starting system monitor
+2023-08-23 09:23:08,369 INFO    SystemMonitor:1084937 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-08-23 09:23:08,369 INFO    SystemMonitor:1084937 [interfaces.py:start():190] Started cpu monitoring
+2023-08-23 09:23:08,372 INFO    SystemMonitor:1084937 [interfaces.py:start():190] Started disk monitoring
+2023-08-23 09:23:08,372 INFO    SystemMonitor:1084937 [interfaces.py:start():190] Started memory monitoring
+2023-08-23 09:23:08,373 INFO    SystemMonitor:1084937 [interfaces.py:start():190] Started network monitoring
+2023-08-23 09:23:09,022 INFO    Thread-12 :1084937 [dir_watcher.py:_on_file_created():271] file/dir created: /home/vimukthi/MyProjects/Research-work/Pytorch/Wandb/wandb/run-20230823_092255-udfbvu0r/files/wandb-metadata.json
+2023-08-23 09:23:09,022 INFO    Thread-12 :1084937 [dir_watcher.py:_on_file_created():271] file/dir created: /home/vimukthi/MyProjects/Research-work/Pytorch/Wandb/wandb/run-20230823_092255-udfbvu0r/files/diff.patch
+2023-08-23 09:23:11,384 DEBUG   HandlerThread:1084937 [handler.py:handle_request():144] handle_request: log_artifact
+2023-08-23 09:23:11,412 DEBUG   HandlerThread:1084937 [handler.py:handle_request():144] handle_request: pause
+2023-08-23 09:23:11,413 INFO    HandlerThread:1084937 [handler.py:handle_request_pause():728] stopping system metrics thread or process
+2023-08-23 09:23:11,413 INFO    HandlerThread:1084937 [system_monitor.py:finish():190] Stopping system monitor
+2023-08-23 09:23:11,415 DEBUG   SystemMonitor:1084937 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-08-23 09:23:11,416 DEBUG   SystemMonitor:1084937 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-08-23 09:23:11,416 DEBUG   SystemMonitor:1084937 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-08-23 09:23:11,418 INFO    HandlerThread:1084937 [interfaces.py:finish():202] Joined cpu monitor
+2023-08-23 09:23:11,419 INFO    HandlerThread:1084937 [interfaces.py:finish():202] Joined disk monitor
+2023-08-23 09:23:11,423 INFO    HandlerThread:1084937 [interfaces.py:finish():202] Joined memory monitor
+2023-08-23 09:23:11,431 INFO    HandlerThread:1084937 [interfaces.py:finish():202] Joined network monitor
+2023-08-23 09:23:11,517 DEBUG   HandlerThread:1084937 [handler.py:handle_request():144] handle_request: resume
+2023-08-23 09:23:11,517 INFO    HandlerThread:1084937 [handler.py:handle_request_resume():719] starting system metrics thread or process
+2023-08-23 09:23:11,517 INFO    HandlerThread:1084937 [system_monitor.py:start():181] Starting system monitor
+2023-08-23 09:23:11,517 INFO    SystemMonitor:1084937 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-08-23 09:23:11,518 INFO    SystemMonitor:1084937 [interfaces.py:start():190] Started cpu monitoring
+2023-08-23 09:23:11,518 INFO    SystemMonitor:1084937 [interfaces.py:start():190] Started disk monitoring
+2023-08-23 09:23:11,519 INFO    SystemMonitor:1084937 [interfaces.py:start():190] Started memory monitoring
+2023-08-23 09:23:11,520 INFO    SystemMonitor:1084937 [interfaces.py:start():190] Started network monitoring
+2023-08-23 09:23:11,560 DEBUG   HandlerThread:1084937 [handler.py:handle_request():144] handle_request: pause
+2023-08-23 09:23:11,560 INFO    HandlerThread:1084937 [handler.py:handle_request_pause():728] stopping system metrics thread or process
+2023-08-23 09:23:11,560 INFO    HandlerThread:1084937 [system_monitor.py:finish():190] Stopping system monitor
+2023-08-23 09:23:11,561 DEBUG   SystemMonitor:1084937 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-08-23 09:23:11,561 DEBUG   SystemMonitor:1084937 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-08-23 09:23:11,561 DEBUG   SystemMonitor:1084937 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-08-23 09:23:11,561 INFO    HandlerThread:1084937 [interfaces.py:finish():202] Joined cpu monitor
+2023-08-23 09:23:11,562 INFO    HandlerThread:1084937 [interfaces.py:finish():202] Joined disk monitor
+2023-08-23 09:23:11,562 INFO    HandlerThread:1084937 [interfaces.py:finish():202] Joined memory monitor
+2023-08-23 09:23:11,562 INFO    HandlerThread:1084937 [interfaces.py:finish():202] Joined network monitor
+2023-08-23 09:23:11,599 DEBUG   HandlerThread:1084937 [handler.py:handle_request():144] handle_request: resume
+2023-08-23 09:23:11,599 INFO    HandlerThread:1084937 [handler.py:handle_request_resume():719] starting system metrics thread or process
+2023-08-23 09:23:11,599 INFO    HandlerThread:1084937 [system_monitor.py:start():181] Starting system monitor
+2023-08-23 09:23:11,600 INFO    SystemMonitor:1084937 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-08-23 09:23:11,600 INFO    SystemMonitor:1084937 [interfaces.py:start():190] Started cpu monitoring
+2023-08-23 09:23:11,601 INFO    SystemMonitor:1084937 [interfaces.py:start():190] Started disk monitoring
+2023-08-23 09:23:11,601 INFO    SystemMonitor:1084937 [interfaces.py:start():190] Started memory monitoring
+2023-08-23 09:23:11,603 INFO    SystemMonitor:1084937 [interfaces.py:start():190] Started network monitoring
+2023-08-23 09:23:12,349 DEBUG   SenderThread:1084937 [sender.py:send():379] send: telemetry
+2023-08-23 09:23:12,349 DEBUG   SenderThread:1084937 [sender.py:send():379] send: stats
+2023-08-23 09:23:12,350 DEBUG   HandlerThread:1084937 [handler.py:handle_request():144] handle_request: status_report
+2023-08-23 09:23:12,353 DEBUG   SenderThread:1084937 [sender.py:send_request():406] send_request: log_artifact
+2023-08-23 09:23:12,458 INFO    wandb-upload_0:1084937 [upload_job.py:push():131] Uploaded file /tmp/tmphscm6yvjwandb/4dzy5wk8-wandb-metadata.json
+2023-08-23 09:23:12,833 WARNING StreamThr :1084937 [internal.py:is_dead():414] Internal process exiting, parent pid 1084499 disappeared
+2023-08-23 09:23:12,834 ERROR   StreamThr :1084937 [internal.py:wandb_internal():152] Internal process shutdown.
+2023-08-23 09:23:13,359 INFO    HandlerThread:1084937 [handler.py:finish():857] shutting down handler
+2023-08-23 09:23:13,359 INFO    HandlerThread:1084937 [system_monitor.py:finish():190] Stopping system monitor
+2023-08-23 09:23:13,360 INFO    HandlerThread:1084937 [interfaces.py:finish():202] Joined cpu monitor
+2023-08-23 09:23:13,360 DEBUG   SystemMonitor:1084937 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-08-23 09:23:13,361 DEBUG   SystemMonitor:1084937 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-08-23 09:23:13,361 DEBUG   SystemMonitor:1084937 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-08-23 09:23:13,360 INFO    HandlerThread:1084937 [interfaces.py:finish():202] Joined disk monitor
+2023-08-23 09:23:13,362 INFO    HandlerThread:1084937 [interfaces.py:finish():202] Joined memory monitor
+2023-08-23 09:23:13,362 INFO    HandlerThread:1084937 [interfaces.py:finish():202] Joined network monitor
+2023-08-23 09:23:13,363 INFO    WriterThread:1084937 [datastore.py:close():294] close: /home/vimukthi/MyProjects/Research-work/Pytorch/Wandb/wandb/run-20230823_092255-udfbvu0r/run-udfbvu0r.wandb
+2023-08-23 09:23:13,668 INFO    SenderThread:1084937 [sender.py:send_request_log_artifact():1441] logged artifact original_dataset - {'id': 'QXJ0aWZhY3Q6NTQ4NzUwNzQx', 'digest': 'cfc377f3f3b76ddc1a4cc2ea2f89a0dd', 'state': 'COMMITTED', 'aliases': [{'artifactCollectionName': 'original_dataset', 'alias': 'latest'}, {'artifactCollectionName': 'original_dataset', 'alias': 'v0'}], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjkyMTg1MDI1', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NTQ4NzUwNzQx', 'versionIndex': 0}}, 'version': 'v0'}
+2023-08-23 09:23:13,669 INFO    SenderThread:1084937 [sender.py:finish():1552] shutting down sender
+2023-08-23 09:23:13,669 INFO    SenderThread:1084937 [dir_watcher.py:finish():358] shutting down directory watcher
+2023-08-23 09:23:14,026 INFO    SenderThread:1084937 [dir_watcher.py:finish():388] scan: /home/vimukthi/MyProjects/Research-work/Pytorch/Wandb/wandb/run-20230823_092255-udfbvu0r/files
+2023-08-23 09:23:14,027 INFO    SenderThread:1084937 [dir_watcher.py:finish():402] scan save: /home/vimukthi/MyProjects/Research-work/Pytorch/Wandb/wandb/run-20230823_092255-udfbvu0r/files/config.yaml config.yaml
+2023-08-23 09:23:14,028 INFO    SenderThread:1084937 [dir_watcher.py:finish():402] scan save: /home/vimukthi/MyProjects/Research-work/Pytorch/Wandb/wandb/run-20230823_092255-udfbvu0r/files/requirements.txt requirements.txt
+2023-08-23 09:23:14,029 INFO    SenderThread:1084937 [dir_watcher.py:finish():402] scan save: /home/vimukthi/MyProjects/Research-work/Pytorch/Wandb/wandb/run-20230823_092255-udfbvu0r/files/wandb-summary.json wandb-summary.json
+2023-08-23 09:23:14,040 INFO    SenderThread:1084937 [dir_watcher.py:finish():402] scan save: /home/vimukthi/MyProjects/Research-work/Pytorch/Wandb/wandb/run-20230823_092255-udfbvu0r/files/conda-environment.yaml conda-environment.yaml
+2023-08-23 09:23:14,044 INFO    SenderThread:1084937 [dir_watcher.py:finish():402] scan save: /home/vimukthi/MyProjects/Research-work/Pytorch/Wandb/wandb/run-20230823_092255-udfbvu0r/files/wandb-metadata.json wandb-metadata.json
+2023-08-23 09:23:14,052 INFO    SenderThread:1084937 [dir_watcher.py:finish():402] scan save: /home/vimukthi/MyProjects/Research-work/Pytorch/Wandb/wandb/run-20230823_092255-udfbvu0r/files/diff.patch diff.patch
+2023-08-23 09:23:14,058 INFO    SenderThread:1084937 [file_pusher.py:finish():159] shutting down file pusher
+2023-08-23 09:23:14,071 INFO    SenderThread:1084937 [file_pusher.py:join():164] waiting for file pusher
+2023-08-23 09:23:16,933 INFO    wandb-upload_0:1084937 [upload_job.py:push():131] Uploaded file /home/vimukthi/MyProjects/Research-work/Pytorch/Wandb/wandb/run-20230823_092255-udfbvu0r/files/config.yaml
+2023-08-23 09:23:17,009 INFO    wandb-upload_3:1084937 [upload_job.py:push():131] Uploaded file /home/vimukthi/MyProjects/Research-work/Pytorch/Wandb/wandb/run-20230823_092255-udfbvu0r/files/wandb-summary.json
+2023-08-23 09:23:20,193 INFO    wandb-upload_4:1084937 [upload_job.py:push():131] Uploaded file /home/vimukthi/MyProjects/Research-work/Pytorch/Wandb/wandb/run-20230823_092255-udfbvu0r/files/conda-environment.yaml
+2023-08-23 09:23:22,473 INFO    wandb-upload_2:1084937 [upload_job.py:push():131] Uploaded file /home/vimukthi/MyProjects/Research-work/Pytorch/Wandb/wandb/run-20230823_092255-udfbvu0r/files/requirements.txt
+2023-08-23 09:23:22,734 INFO    wandb-upload_1:1084937 [upload_job.py:push():131] Uploaded file /tmp/tmphscm6yvjwandb/wjc6j28k-diff.patch
+2023-08-23 09:23:22,736 INFO    MainThread:1084937 [internal.py:handle_exit():76] Internal process exited
+2023-08-23 09:23:23,085 INFO    SenderThread:1084937 [file_stream.py:finish():593] file stream finish called
+2023-08-23 09:23:23,877 INFO    SenderThread:1084937 [file_stream.py:finish():597] file stream finish is done

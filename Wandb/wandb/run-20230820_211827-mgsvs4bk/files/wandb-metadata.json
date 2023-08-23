@@ -1,0 +1,56 @@
+{
+    "os": "Linux-6.2.0-26-generic-x86_64-with-glibc2.35",
+    "python": "3.9.16",
+    "heartbeatAt": "2023-08-20T15:48:29.623642",
+    "startedAt": "2023-08-20T15:48:27.532147",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://github.com/VimukthiRandika1997/Pytorch.git",
+        "commit": "802ba6ea24d1c8e7527e74461e5935b47b459213"
+    },
+    "email": "vimukthirandika1997@gmail.com",
+    "root": "/home/vimukthi/MyProjects/Research-work/Pytorch",
+    "host": "vimukthi-HP-Notebook",
+    "username": "vimukthi",
+    "executable": "/home/vimukthi/anaconda3/envs/pytorch/bin/python",
+    "cpu_count": 2,
+    "cpu_count_logical": 4,
+    "cpu_freq": {
+        "current": 3100.0375,
+        "min": 400.0,
+        "max": 3100.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3100.002,
+            "min": 400.0,
+            "max": 3100.0
+        },
+        {
+            "current": 3099.995,
+            "min": 400.0,
+            "max": 3100.0
+        },
+        {
+            "current": 3100.012,
+            "min": 400.0,
+            "max": 3100.0
+        },
+        {
+            "current": 3099.972,
+            "min": 400.0,
+            "max": 3100.0
+        }
+    ],
+    "disk": {
+        "total": 101.38447570800781,
+        "used": 93.70912551879883
+    },
+    "memory": {
+        "total": 15.528587341308594
+    }
+}
